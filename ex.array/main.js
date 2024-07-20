@@ -76,7 +76,16 @@ const rem = ele.splice(3,1);//para remover um ou mais elementos
 console.log(rem);
 console.log(ele);
 
-const add = ele.splice(1,0,1,2,3)
+const add = ele.splice(0,0,1,2,3)//adicionar um ou mais elementos
 
 console.log(add);
+console.log(ele);
 
+
+const sub = ele.splice(4,2,5,6);
+
+console.log(sub);
+console.log(ele);
+
+
+//
