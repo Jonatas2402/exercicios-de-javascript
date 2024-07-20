@@ -88,4 +88,20 @@ console.log(sub);
 console.log(ele);
 
 
-//
+//unshift (adiciona novos elementos no icio da array na ordem que forem fornecidos.)
+
+const nomes2 = ['jonatas, aluisio, cleber, ferreira']
+
+const resN = nomes2.unshift('karenn');
+
+console.log(nomes2);
+
+//toString (esse metodo repete toda array, semelhante ao join quando não exixte parametro.)
+
+
+const novo = ['jonatas', 12, 'novo']
+
+const resul = novo.toString();
+
+console.log(resul);
+
