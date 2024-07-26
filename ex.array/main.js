@@ -115,3 +115,25 @@ const numberMultiTwo = numbers.map(function(number) {
 })
 
 console.log(numberMultiTwo);
+
+//filter (também manipula valores na array, utilizado no exemplo para separar os numeros pares. nesse caso os valores divisores por 2 sendo assum o resto da divisão por 2 sendo 0.)
+
+const ages = [10, 35, 26, 22, 51, 31, 6];
+
+const parAges = ages.filter(function(age){
+    return age % 2 === 0
+})
+
+console.log(parAges);
+
+
+//reduce (utilizado para fazer a soma dos valores da array, nesse caso faremos a soma das idades, na função idades pega os valores da array (idade) e o acumulador é responsavel por acumular o valor das somas e somar com o proximo valor da array (idade).)
+const idades = [10, 35, 26, 22, 51, 31, 6];
+
+const somaIdades = idades.reduce(function(idades, acumulador){
+    return acumulador + idades; 
+}, 0)
+console.log(somaIdades);
+
+//o acumulador inicia com 0 a partir do momento (idades) vai ser somado ao acumulador, que vai aumentando a cada idade passada, e returna a o resultado de todas as somas, que é a soma final.  
+
