@@ -105,3 +105,13 @@ const resul = novo.toString();
 
 console.log(resul);
 
+//map (serve para manipular os valores de um array, o exemplo ele muultiplica os valors por 2)
+
+
+const numbers = [1, 2, 3, 4, 5];
+
+const numberMultiTwo = numbers.map(function(number) {
+    return number * 2
+})
+
+console.log(numberMultiTwo);
