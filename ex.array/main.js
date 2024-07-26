@@ -52,7 +52,7 @@ const r = num.shift();
 
 console.log(r);
 
-//sort (metodo que coloca os elementos de uma array em ordem alfabetica. Funciona do mesmo jeito para numeros.)
+//sort (metodo que coloca os elementos de uma array em ordem alfabetica. não Funciona do mesmo jeito para numeros.)
 
 const letras = ['a', 'r', 'e', 't', 'y', 'w', 'j', 'b', 'g', 'c']
 
