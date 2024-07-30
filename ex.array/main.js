@@ -7,7 +7,7 @@ const y = ['formam um almoço nutritivo.']
 
 const resultado = x.concat(y);
 
-console.log(resultado);
+console.table(resultado);
 
 
 //join (agrupa todos os elementos de uma array que estejam separados por aspas duplas ou simples e junta todos como resultado.)
@@ -25,7 +25,7 @@ const vet = [4, 12, 15, 20, 40, 50, 48, 60]
 
 const res2 = vet.pop();
 
-console.log(res2);
+console.table(res2);
 
 
 //push (adiciona elementos a array, na ordem que foi adicionado, e retorna o valor referente)
