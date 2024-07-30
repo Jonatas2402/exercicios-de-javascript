@@ -3,7 +3,7 @@
 class = utilizado quando estilizamos mais de um elemento.
 id = quando valos estilizar um unico elemento. */
 body {
-    font-family:"Edu AU VIC WA NT Hand", cursive;
+    
     font-size: 15px;
     font-weight: bolder;
 }
@@ -15,4 +15,9 @@ body {
     margin: auto;
     padding: 20px;
     border: 3px outset black;
+    box-sizing: border-box;
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+}
+.main-aside ul {
+    list-style: none;
 }
