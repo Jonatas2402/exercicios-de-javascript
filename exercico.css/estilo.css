@@ -2,10 +2,17 @@
 /*diferença de id e class
 class = utilizado quando estilizamos mais de um elemento.
 id = quando valos estilizar um unico elemento. */
+* {
+    box-sizing: border-box;
+}
 body {
     
     font-size: 15px;
     font-weight: bolder;
+}
+.box {
+    width: 80%;
+    margin: auto;
 }
 .container {
     height: 300px;
@@ -15,25 +22,57 @@ body {
     margin: auto;
     padding: 20px;
     border: 3px outset black;
-    box-sizing: border-box;
     font-family:"Edu AU VIC WA NT Hand", cursive;
 }
 aside {
-    background-color: rgba(255, 0, 0, 0.307);
     margin: auto;
     height: 100px;
     width: 80%;
-    color: white;
     padding: 0;
-    border: 1px solid black;
     margin-top: 10px;
     
 }
 .main-aside h2 {
     text-align: center;
 }
+.main-aside h2:hover {
+    color: green;
+    transition: 0.5s;
+}
 .main-aside ul {
     list-style: none;
     text-align: center;
     padding: 0;
+}
+.main-aside ul a {
+    text-decoration: none;
+    color: black;
+}
+.main-aside ul a:hover {
+    color: red;
+    transition: 1s;
+}
+.main-aside ul a:visited {
+    color: brown;
+}
+/* formularios */
+
+.main-form {
+    padding-left: 30px;
+    font-family:"Edu AU VIC WA NT Hand", cursive;
+}
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+/* colocando as labels em cima do input*/
+.main-form .form-group label {
+    display: block;
+}
+.main-form .form-group input {
+    padding: 5px;
+}
+.button {
+    padding: 15px;
+    background-color: black;
+    color: white;
 }
