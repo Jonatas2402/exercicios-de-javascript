@@ -77,3 +77,68 @@ aside {
     background-color: black;
     color: white;
 }
+
+/*positions*/
+
+.box-relative {
+    position: relative;
+    border: 3px solid black;
+    height: 500px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.box-relative .absolute {
+    position: absolute;
+    bottom: 0;
+}
+.box-relative .absolute h1 {
+    margin: 0;
+}
+/*barra de navegação*/
+
+#mainnavbar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/*button fixed */
+
+.button-fixed {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+/*categorias*/
+.categorias ul {
+    list-style: none;
+}
+
+/*utilizando pseudo-classe para estilizar, utilizando pseudo-classes para estilizar os elementos filhos.*/
+
+.categorias ul li:first-child {
+    color: red;
+    /*utlizado para estilizar o primeiro elemento filho.*/
+}
+.categorias ul li:last-child {
+    color: green;
+    /*utilizado para estilizar o ultimo elemento filho*/
+}
+.categorias ul li:nth-child(3) {
+    color: blue;
+    /*utilizado para estilizar o elemento filho escolhido no ().
+    também pode ser utilizado para escolher os itens pares com (even) e impares com (odd)*/
+}
+
