@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    /*mesmo que acima*/
+    flex-flow: row wrap;
+}
+
+.content {
+    width: 250px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
