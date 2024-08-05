@@ -16,6 +16,12 @@ ex = um lorem não tem espaço para um linha onde ja tem outros elementos, ele c
 ->flex flow = short hand de flex wrap e flex direction.
 
 //justify content
+center = alinho todos ao centro.
+# flex-start = alinho todos no inicio.
+# flex-end = alinho todos no final.
+# flex-between = distancio o maximo entre eles.
+# flex-around = distancio das bordas e os elementos o maximo possível.
+# space-evenly = distacio as bordas e o elemnetos igualmente o maximo possível.
   //row = eixo = x
   //column = eixo = y
 //align itens
