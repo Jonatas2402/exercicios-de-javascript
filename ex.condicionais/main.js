@@ -1,5 +1,30 @@
+//if else:É basicamente "se isso, então aquilo" se a condição for verdadeira acontece uma coisa, se não acontece outra coisa ex:
+
+let idade = 18
+
+if(idade >= 18) {
+    console.log('pode tirar carteira');
+    
+} else {
+    console.log('não pode tirar carteira');
+    
+}
 
 
+//As vezes, precisamos usar varias condições. else if entra em ação ex:
+
+let hora = 11
+
+if(hora < 12) {
+    console.log('bom dia');
+    
+} else if (hora < 18) {
+    console.log('boa tarde');
+    
+} else {
+    console.log('boa noite');
+    
+}
 const sum = 1+1
 
 if (sum === 2) {
