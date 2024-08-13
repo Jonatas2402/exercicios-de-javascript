@@ -1,4 +1,4 @@
-//objetos gurada valores de uma propriedade
+//objetos guarda valores de uma propriedade
 
 const pessoa = {
     primeiroNome: 'jonatas',

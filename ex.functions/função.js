@@ -30,4 +30,49 @@ let resul = soma (4 + 8)
 console.log(resul);
 
 
+//exercicios
+
+//calculando área de um retangulo.
+// a = b * c
+
+function calretangulo(a, b = c) {
+    return a * b
+}
+
+let c = calretangulo(10, 5)
+
+console.log(c);
+
+//verificador de numeros pares
+
+function Numpar(num1, num2) {
+    return num1 % num2
+}
+let numero = Numpar(50,4)
+
+console.log(numero);
+
+
+
+switch (numero) {
+    case 0 || 2 :
+        console.log('true');
+        break;
+    case 1 || 3 :
+        console.log('false');
+        break;     
+}
+//utilizei o operador resto da divisão para ter um numero par ou ímpar.
+
+//calcular imc
+
+function imc(peso,altura ) {
+    return peso / (altura * altura)
+}
+
+let imc1 = imc(100, 1.72, 1.72)
+
+console.log(imc1);
+
+
 
