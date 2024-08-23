@@ -11,3 +11,6 @@ const allItens = document.querySelectorAll('.item')
 
 
 //Manipulando itens com DOM.
+
+
+
