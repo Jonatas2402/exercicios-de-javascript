@@ -1,0 +1,10 @@
+getElementById: Faz refeferencia ao elemento que ira ser manipulado pelo id do elemento.
+
+para alterar o texto utilizamos 
+innerText ou textcontent
+
+querySelector: Retorna o elemento em si seja ele class (.) ou id (#), mais novo adicionado a pouco tempo com ECMS6. ambos os modos só podemos selecionar um elemento por declaração.
+
+para selecionar multiplos elementos.
+
+utilizando o querySelectorAll podemos selecionar varios elementos do HTML, ela se torna basicamente uma lista. 
