@@ -1,0 +1,1 @@
+map é um metodo que é utilizado em listas, ele percorre toda lista retornando os seus  valores um por um.
