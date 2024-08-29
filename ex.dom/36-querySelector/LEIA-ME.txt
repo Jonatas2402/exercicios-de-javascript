@@ -1,0 +1,8 @@
+querySelector.
+
+**  querySelector/querySelectorAll.
+Com ele podemos acessar elementos baseados em regras CSS.
+
+utilizadno querySelector podemos selecionar elementos mais especificos, como um item especifico de uma lista, entre.
+
+o querySelector e querySelectorAll utiliza uma sintaxe muito parecida com o do CSS, como # e . para selecionar classes e ids.

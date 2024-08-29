@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+h1, p {
+    font-family: cursive;
+    font-size: 2.5em;
+}
+
+ul {
+    color: red;
+}
+
+li {
+    font-family: cursive;
+    font-size: 1.5em;
+}

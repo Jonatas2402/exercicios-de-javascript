@@ -1,0 +1,8 @@
+** Acessar o DOM nada mais é do que identificar um elemento HTML através de metodos.
+
+** Depois podemos manipulamos da forma que quisermos.
+
+**Acessar o DOM é semelhante as regras de CSS.
+
+**Podemos acessar por:tags, ids, classes.
+
